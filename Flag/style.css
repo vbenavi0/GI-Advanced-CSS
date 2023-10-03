@@ -1,0 +1,26 @@
+table{
+    border: solid black 1px;
+    padding: 1px;
+    margin: 1px;
+    border-collapse: collapse;
+}
+
+.rStripe{
+    width: 1500px;
+    height: 50px;
+    background-color: red;
+}
+
+.wStripe{
+    width: 1500px;
+    height: 50px;
+    background-color: white;
+}
+
+.stars{
+    position: absolute;
+    left: 11px;
+    top: 10px;
+    height: 362px;
+    width: auto;
+}

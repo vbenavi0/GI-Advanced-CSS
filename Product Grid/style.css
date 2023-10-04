@@ -1,24 +1,38 @@
+html{
+    background-color: #ffdb4b;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
+header{
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 body{
     align-items: center;
 }
 
 .product{
-    border: solid black 1px;
+    border: solid #ffdb4b 3px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     padding: 5px;
     width: 300px;
     height: auto;
     margin: 20px;
+    background-color: white;
 }
 
 .title{
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
 }
 
 .disc{
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .price{
@@ -26,13 +40,41 @@ body{
 }
 
 table{
-    border: solid black 1px;
+    border: solid black 2px;
     padding: 1px;
     margin: 1px;
     border-collapse: collapse;
+    background-color: red;
+    margin: 0 auto;
 }
 
 .pImg{
     height: 250px;
     width:270px;
+}
+
+.logo{
+    height: 100px;
+    width:auto;
+    margin: 10px;
+}
+
+.buy{
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    padding: 25px #ffdb4b;
+    border: 5px solid #ffdb4b;
+    background-color: #ffdb4b;
+    border-radius: 25px;
+}
+
+.buy :visited{
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    padding: 25px #ffdb4b;
+    border: 5px solid #ffdb4b;
+    background-color: #ffdb4b;
+    border-radius: 25px;
 }

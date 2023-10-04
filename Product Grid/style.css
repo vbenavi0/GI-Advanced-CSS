@@ -1,5 +1,5 @@
 html{
-    background-color: #ffdb4b;
+    background-color: #242424;
     align-content: center;
     text-align: center;
     justify-content: center;
@@ -58,8 +58,8 @@ table{
 }
 
 .logo{
-    height: 10vh;
-    width:auto;
+    height: 8vh;
+    max-width: auto;
     margin: 10px;
 }
 
@@ -84,3 +84,14 @@ table{
     background-color: #ffdb4b;
     border-radius: 25px;
 }
+
+@media screen and (max-width:760px){
+    .logo{
+        height: 5vh;
+      }
+
+    .product{
+        padding: 2px;
+        margin: 2px;
+    }
+  }

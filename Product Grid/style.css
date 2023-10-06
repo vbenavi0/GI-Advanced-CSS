@@ -4,7 +4,7 @@ html{
 }
 
 header{
-    display: flex;
+    display: inline-flex;
     margin-left: auto;
     margin-right: auto;
 }
@@ -18,6 +18,7 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    background-color: none;
 }
 
 .product{
@@ -99,10 +100,25 @@ body{
     max-width: 200px;
 }
 
-.logo{
-    height: 8vh;
-    max-width: auto;
+#logo1{
+    width: auto;
+    height: auto;
+    max-height: 100px;
+    max-width: 500px;
     margin: 10px;
+}
+
+#logo2{
+    width: auto;
+    height: auto;
+    max-height: 100px;
+    max-width: 500px;
+    margin: 10px;
+}
+
+.logos{
+    display: flex;
+    max-width: 1000px;
 }
 
 .buy{
@@ -129,10 +145,16 @@ body{
     margin: 1px;
 }
 
-@media screen and (max-width:1000px){
-    .logo{
-        height: 5vh;
-      }
+@media screen and (max-width:1050px){
+    #logo1{
+        max-height: 75px;
+        max-width: 250px;
+    }
+    
+    #logo2{
+        max-height: 75px;
+        max-width: 250px;
+    }
 
     .grid1{
         grid-template-columns: 250px 250px;
@@ -169,5 +191,54 @@ body{
     #p8{
     grid-column: 2;
     grid-row: 4;
+    }
+} 
+
+@media screen and (max-width:550px){
+    #logo1{
+        max-height: 50px;
+        max-width: 125px;
+    }
+    
+    #logo2{
+        max-height: 50px;
+        max-width: 125px;
+    }
+
+    .grid1{
+        grid-template-columns: 250px;
+        grid-template-rows: 400px 400px 400px 400px 400px 400px 400px 400px;
+    }
+    #p1{
+    grid-column: 1;
+    grid-row: 1;
+    }
+    #p2{
+    grid-column: 1;
+    grid-row: 2;
+    }
+    #p3{
+    grid-column: 1;
+    grid-row: 3;
+    }
+    #p4{
+    grid-column: 1;
+    grid-row: 4;
+    }
+    #p5{
+    grid-column: 1;
+    grid-row: 5;
+    }
+    #p6{
+    grid-column: 1;
+    grid-row: 6;
+    }
+    #p7{
+    grid-column: 1;
+    grid-row: 7;
+    }
+    #p8{
+    grid-column: 1;
+    grid-row: 8;
     }
 } 

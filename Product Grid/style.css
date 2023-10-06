@@ -145,7 +145,7 @@ body{
     margin: 1px;
 }
 
-@media screen and (max-width:1050px){
+@media screen and (max-width:1050px){ /* Resizing for tablet screens */
     #logo1{
         max-height: 75px;
         max-width: 250px;
@@ -194,7 +194,7 @@ body{
     }
 } 
 
-@media screen and (max-width:550px){
+@media screen and (max-width:550px){ /* Resizing for phone screens */
     #logo1{
         max-height: 50px;
         max-width: 125px;

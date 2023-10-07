@@ -196,12 +196,12 @@ body{
 
 @media screen and (max-width:550px){ /* Resizing for phone screens */
     #logo1{
-        max-height: 50px;
+        max-height: 35px;
         max-width: 125px;
     }
     
     #logo2{
-        max-height: 50px;
+        max-height: 35px;
         max-width: 125px;
     }
 
